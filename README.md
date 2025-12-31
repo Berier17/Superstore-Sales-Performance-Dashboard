@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This Power BI project is an end-to-end business intelligence solution designed to analyze sales, profit, and discount trends for a retail superstore. The dashboard serves as an executive monitoring tool, enabling stakeholders to track Year-over-Year (YoY) growth, identify high-performing regions, and optimize product category strategies across the United States.
 
-**🚀 Live Preview:** [Superstore Sales Performance Dashboard.pdf](https://github.com/user-attachments/files/24393925/Superstore.Sales.Performance.Dashboard.pdf)
+**📄 View PDF Report:** [Superstore Sales Performance Dashboard.pdf](https://github.com/user-attachments/files/24393925/Superstore.Sales.Performance.Dashboard.pdf)
 
 ## 🛠️ Tools & Technologies
 * **Power BI Desktop:** Dashboard design, interactivity, and layout.
