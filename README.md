@@ -1,78 +1,38 @@
-# Superstore-Sales-Performance-Dashboard
-Interactive Power BI dashboard analyzing sales, profit, and discounts from the Sample Superstore Dataset. Includes KPIs, bar charts with drilldowns, map visualization, sales trends, and discount analysis by category. Built to showcase data storytelling and dashboard design skills.
+# 🛒 Superstore Sales Performance Dashboard
 
-📊 Superstore Sales Performance Dashboard
-This project presents an interactive Power BI dashboard analyzing sales performance for a retail superstore using the Sample Superstore Dataset. The dashboard provides insights into sales, profit, quantity, discount, and geographic distribution across the United States.
- 
-✅ Features
-Interactive Filters (Slicers):
+## 📌 Project Overview
+This Power BI project is an end-to-end business intelligence solution designed to analyze sales, profit, and discount trends for a retail superstore. The dashboard serves as an executive monitoring tool, enabling stakeholders to track Year-over-Year (YoY) growth, identify high-performing regions, and optimize product category strategies across the United States.
 
-Segment (Consumer, Corporate, Home Office)
+**🚀 Live Preview:** [Superstore Sales Performance Dashboard.pdf](https://github.com/user-attachments/files/24393925/Superstore.Sales.Performance.Dashboard.pdf)
 
-Ship Mode (First Class, Same Day, Second Class, Standard Class)
+## 🛠️ Tools & Technologies
+* **Power BI Desktop:** Dashboard design, interactivity, and layout.
+* **Power Query (M):** ETL processing to clean raw data, handle null values, and standardize column formats.
+* **Data Modeling:** Established relationships between data tables to enable accurate filtering and drill-down capabilities.
+* **DAX (Data Analysis Expressions):** Engineered custom measures for `Total Sales`, `Profit Margin %`, and `Average Discount`.
 
-KPIs (Cards):
+## 📊 Key Features & Analysis
+### 1. Executive Summary
+* **KPI Cards:** Instant view of critical metrics including **Total Sales**, **Total Profit**, and **Quantity Sold**.
+* **Dynamic Filtering:** Slicers for **Segment** (Consumer, Corporate, Home Office) and **Ship Mode** allow users to isolate specific business units.
 
-🛒 Total Quantity
+### 2. Regional & Geographic Performance
+* **Map Visualization:** Geospatial analysis of sales distribution by State, highlighting top-performing markets (e.g., California, New York).
+* **Regional Breakdown:** Bar charts comparing sales volume across West, East, Central, and South regions.
 
-💰 Total Sales
+### 3. Product & Profitability Analysis
+* **Category Drill-Downs:** Hierarchical analysis allowing users to drill from **Category** (Furniture, Technology) down to **Sub-Category** (Phones, Tables) to pinpoint profit drivers.
+* **Discount Impact Strategy:** A scatter plot analyzing **Profit vs. Average Discount**, revealing how aggressive discounting strategies impact overall profitability in specific categories.
 
-📈 Total Profit
+## 💡 Key Insights Uncovered
+* **High Sales ≠ High Profit:** Certain categories (like Tables) generate high revenue but suffer from negative profit margins due to high average discounts.
+* **Seasonal Trends:** The Line Chart reveals distinct seasonal spikes in Q4, suggesting the need for inventory ramp-up in October/November.
+* **Shipping Efficiency:** "Standard Class" shipping accounts for the majority of orders, but "Same Day" shipping yields higher profit margins per unit.
 
-
-Visualizations:
-
-📊 Bar Charts with Drilldowns:
-
-Profit by Category
-
-Sales by Region
-
-Sales by Category
-
-🗺 Map Visualization:
-
-Sales Distribution by State
-
-📉 Line Chart:
-
-Sales Trend by Month
-
-⚙ Scatter Plot:
-
-Profit vs Average Discount by Category
-
-
-📌 Insights Uncovered
-Which product categories drive the highest profit and sales.
-
-Regional sales trends across the U.S.
-
-Seasonal variations in sales throughout the year.
-
-How discount strategies impact profitability.
-
-Top-performing states based on sales volume.
-
-⚙ Technology Stack
-Power BI Desktop
-
-Dataset: Sample Superstore Dataset
-
-📂 Project Structure
+## 📂 Project Structure
+```text
 /Superstore-Sales-Dashboard/
-├── Superstore_Sales_Performance.pbix  # Power BI Project File
-├── README.md                          # Project Overview
-└── Screenshots/                       # Dashboard screenshots
-
-Usage
-Download or clone the repository.
-
-Open the .pbix file in Power BI Desktop.
-
-Interact with slicers and visuals to explore insights.
-
-Drill down on bar charts for Category → Sub-Category insights.
-
-📬 Contact
-For any feedback or collaboration opportunities, feel free to reach out!
+├── Superstore_Sales_Performance.pbix  # Source Power BI File
+├── Data/                              # Raw Sample Superstore Dataset (CSV/XLS)
+├── Screenshots/                       # Images of the dashboard for documentation
+└── README.md                          # Project Documentation
